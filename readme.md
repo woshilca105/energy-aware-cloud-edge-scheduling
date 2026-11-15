@@ -74,3 +74,11 @@ Linux/macOS使用相应虚拟环境的 `python research/project_runner.py --no-o
 本仓库不附个人日志、申请书及大量历史实验；小型示例不代替多种子统计。历史失败版本仍保留在原始研发记录及Git历史中，不冒称没有尝试过。
 
 RayCloudSim原作者及贡献者的版权、MIT许可证保留在 `LICENSE`，本项目扩展主要在 `research/`，不将底座作为独立原创。LEAF用于此前本地组件核对，CloudSim/YAFS为资料参考，不宣称跨平台验证。
+## 来源与许可
+
+本项目基于 [RayCloudSim](https://github.com/ZhangRui111/RayCloudSim)
+进行扩展，保留原作者及贡献者的版权声明与 MIT 许可证，详见 LICENSE。
+
+RayCloudSim 提供基础事件仿真、节点和网络资源管理能力。
+本项目主要扩展能耗模型、带时延约束的任务卸载策略、
+实验验证和结果展示，不将原有仿真底座作为独立原创。
