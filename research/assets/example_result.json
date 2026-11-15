@@ -1,0 +1,83 @@
+{
+  "mode": "new_extended_run",
+  "cases": [
+    {
+      "case": "n7_star_compute_medium_9601",
+      "topology": "star",
+      "workload": "compute",
+      "load": "medium",
+      "seed": 9601,
+      "baseline": {
+        "total_j": 11531.343428820353,
+        "mean_response_s": 3.821400493278539,
+        "submitted": 100,
+        "completed": 100,
+        "on_time": 100
+      },
+      "current": {
+        "total_j": 11057.4529702174,
+        "mean_response_s": 3.783384710840441,
+        "submitted": 100,
+        "completed": 100,
+        "on_time": 100
+      },
+      "saving_pct": 4.109585856393416,
+      "delay_change_pct": -0.9948128311848992
+    }
+  ],
+  "metrics": {
+    "least_loaded": {
+      "energy_j": 11531.343428820353,
+      "mean_response_s": 3.821400493278539,
+      "throughput_tasks_per_s": 0.06666666666666667,
+      "on_time_rate": 1.0,
+      "mean_cpu_occupancy": 0.03599045029580636,
+      "model_cost": 0.002562520761960079,
+      "cost_components": {
+        "electricity": 0.002562520761960079,
+        "cpu": 0.0,
+        "network": 0.0
+      },
+      "pricing": {
+        "electricity_per_kwh": 0.8,
+        "cpu_per_second": 0.0,
+        "network_per_gb": 0.0,
+        "currency": "CNY",
+        "source_kind": "scenario_assumption",
+        "source_note": "user-configurable scenario assumptions; not a measured bill"
+      },
+      "cost_label": "assumption-based model cost"
+    },
+    "q_learning": {
+      "energy_j": 11057.4529702174,
+      "mean_response_s": 3.783384710840441,
+      "throughput_tasks_per_s": 0.06666666666666667,
+      "on_time_rate": 1.0,
+      "mean_cpu_occupancy": 0.034492830268638676,
+      "model_cost": 0.0024572117711594223,
+      "cost_components": {
+        "electricity": 0.0024572117711594223,
+        "cpu": 0.0,
+        "network": 0.0
+      },
+      "pricing": {
+        "electricity_per_kwh": 0.8,
+        "cpu_per_second": 0.0,
+        "network_per_gb": 0.0,
+        "currency": "CNY",
+        "source_kind": "scenario_assumption",
+        "source_note": "user-configurable scenario assumptions; not a measured bill"
+      },
+      "cost_label": "assumption-based model cost"
+    }
+  },
+  "current_policy": "q_learning",
+  "accounting_note": "含实际结果回传、等待内存及独立NIC基础功耗；共享能耗不任意摊分。",
+  "gates": {
+    "energy": true,
+    "service": true,
+    "significance": null
+  },
+  "pricing_note": "费用为配置费率下的模型计算；默认电价等仅为情景假设。该次运行没有统计显著性结论。",
+  "provenance": "Actual run from isolated minimal checkout without any original research_records; frozen optional Q comparator."
+}

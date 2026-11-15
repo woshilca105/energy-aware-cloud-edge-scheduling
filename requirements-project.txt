@@ -1,0 +1,4 @@
+# Minimal dependencies for the current three-tier experiment and local dashboard.
+# Validated locally with Python 3.12.10. Official optional demos have other needs.
+networkx==2.8.8
+simpy==4.1.1

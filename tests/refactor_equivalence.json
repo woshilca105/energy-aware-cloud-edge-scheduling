@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "runs_per_version": 228,
+  "total_fresh_runs": 456,
+  "task_policy_records": 45600,
+  "full_reports_exact": true,
+  "differences": [],
+  "previous_commit": "d14608d76580e76e374fd96e1ea6edf7c2c2ba7c",
+  "coverage": {
+    "nodes": [
+      4,
+      7,
+      13
+    ],
+    "topologies": [
+      "star",
+      "tree",
+      "mesh",
+      "hybrid"
+    ],
+    "workloads": [
+      "compute",
+      "io",
+      "latency"
+    ],
+    "loads": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "seed": 10101
+  },
+  "comparison": "SHA256 of the complete canonical JSON report, including every task and decision, exactly matched for each paired run.",
+  "old_results_sha256": "06acc8a4f1aa1c836045a4f5710b44b3a7e11dbb2d048942648fb90893e9fc50",
+  "new_results_sha256": "06acc8a4f1aa1c836045a4f5710b44b3a7e11dbb2d048942648fb90893e9fc50",
+  "note": "Behavior-preserving refactor evidence, not new significance or universal saving evidence."
+}
